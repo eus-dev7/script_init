@@ -17,7 +17,7 @@ case "$1" in
   start)
     echo "Arrancando detector-init"
     # Aquí hay que poner el programa que quieras arrancar automáticamente
-    /usr/bin/python /home/pi/telegrambot.py
+    /usr/bin/python /home/pi/telegram_bot.py
     ;;
   stop)
     echo "Deteniendo detector-init"
